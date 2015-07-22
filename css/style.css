@@ -1,0 +1,50 @@
+/**
+ * variables
+ */
+body {
+  width: 100%;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #444;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+a {
+  color: #404040;
+  text-decoration: none;
+  word-break: break-word;
+}
+a:focus,
+a:hover {
+  color: #156aeb;
+  text-decoration: none;
+}
+.header i {
+  font-size: 50px;
+  color: #156aeb;
+}
+.header .title {
+  font-size: 32px;
+}
+.header .subtitle {
+  font-size: 20px;
+}
+.contact h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #404040;
+}
+@media (min-width: 1200px) {
+  .header i {
+    font-size: 300px;
+  }
+  .header .title {
+    font-size: 80px;
+  }
+}

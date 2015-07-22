@@ -1,0 +1,67 @@
+@import url('variables.less');
+@import url('mixins.less');
+
+// Global Components
+
+body {
+	.sans-yahei;
+	color: #444;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.4;
+	width: 100%;
+	text-align: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+a {
+	color: @gray-dark;
+	word-break: break-word;
+	text-decoration: none;
+
+	&:focus,
+	&:hover {
+		color: @theme-primary;
+		text-decoration: none;
+	}
+}
+
+// header
+
+.header{
+	i{
+		font-size: 50px;
+		color: @theme-primary;
+	}
+	.title{
+		font-size: 32px;
+	}
+	.subtitle{
+		font-size: 20px;
+	}
+}
+
+
+// contact
+
+.contact{
+	h2{
+		font-size: 32px;
+		font-weight: 700;
+		color: @gray-dark;
+	}
+}
+
+@media (min-width:1200px) {
+	.header{
+		i{
+			font-size: 300px;
+		}
+		.title{
+			font-size: 80px;
+		}
+	}
+}

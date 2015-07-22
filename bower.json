@@ -1,0 +1,20 @@
+{
+  "name": "Studio",
+  "version": "0.0.1",
+  "authors": [
+    "arvin <arvin@reqianduan.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fullpage.js": "~2.6.7",
+    "font-awesome": "~4.3.0",
+    "normalize.css": "~3.0.3"
+  }
+}
