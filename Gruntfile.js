@@ -17,7 +17,7 @@ module.exports = function(grunt){
 			},
 			build: {
 				files: {
-					'js/all.min.js': [
+					'js/app.min.js': [
 						'bower_components/jquery/dist/jquery.js',
 						'bower_components/fullpage.js/jquery.fullPage.js',
 						'js/common.js'
@@ -49,10 +49,10 @@ module.exports = function(grunt){
 			},
 			build: {
 				files: {
-					'css/all.min.css': [
+					'css/app.min.css': [
 						'bower_components/normalize.css/normalize.css',
-						'bower_components/fullpage.js/jquery.fullPage.css',
 						'bower_components/font-awesome/css/font-awesome.css',
+						'bower_components/fullpage.js/jquery.fullPage.css',
 						'css/style.css'
 					]
 				}

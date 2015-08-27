@@ -1,10 +1,10 @@
 {
   "name": "Studio",
-  "themeURI": "http://studio.reqianduan.com/",
-  "description": "定制主题（付费） 技术支持：arvin@reqianduan.com",
-  "author": "Arvin",
-  "authorURI": "http://www.reqianduan.com/u/arvin",
-  "version": "0.0.1",
+  "themeURI": "http://store.reqianduan.com/",
+  "description": "网站制作网站建设，联系：dev@reqianduan.com",
+  "author": "热前端开发团队",
+  "authorURI": "http://dev.reqianduan.com",
+  "version": "1.0.0",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-copy": "~0.5.0",
